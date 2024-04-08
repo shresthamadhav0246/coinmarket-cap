@@ -1,9 +1,15 @@
+import Trending from "../Component/Trending"
 import Headers from "../Component/Header"
+import CMCTable from "@/Component/cmc-table/CMCTable."
+import SwapCrypto from "@/Component/SwapCrypto"
+
 export default function Home() {
     return (
         <>
             <Headers />
-            <h1>Home Page</h1>
+            <SwapCrypto />
+            <Trending />
+            <CMCTable />
         </>
     )
 }
